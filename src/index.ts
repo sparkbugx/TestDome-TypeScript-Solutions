@@ -1,1 +1,4 @@
-console.log('Happy developing ✨')
+
+function NewFunction() {
+    console.log('New function');
+}
