@@ -1,10 +1,10 @@
-enum DiscountType {
+export enum DiscountType {
     Standard,
     Seasonal,
     Weight
 }
 
-function getDiscountedPrice(cartWeight: number, totalPrice: number, discountType: DiscountType): number {
+export function getDiscountedPrice(cartWeight: number, totalPrice: number, discountType: DiscountType): number {
     //Declare discount variable
     let discount = 0
     let finalPrice = 0
