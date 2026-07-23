@@ -1,5 +1,10 @@
 function canTravelTo(gameMatrix: boolean[][], fromRow: number, fromColumn: number, toRow: number, toColumn: number): boolean {
-    // Write your code here new code
+    if(
+        toRow < 0 || toRow >= gameMatrix.length ||
+        toColumn < 0 || toColumn >= gameMatrix[0].length
+    ){
+        return false;
+    }
     return false;
 }
 
