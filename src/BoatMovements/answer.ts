@@ -5,6 +5,11 @@ function canTravelTo(gameMatrix: boolean[][], fromRow: number, fromColumn: numbe
     ){
         return false;
     }
+
+    //2. Destination Check: Is the final destination land?
+    if(gameMatrix[toRow][toColumn] === false){
+        return false;
+    }
     return false;
 }
 
