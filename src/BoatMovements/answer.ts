@@ -11,6 +11,7 @@ function canTravelTo(gameMatrix: boolean[][], fromRow: number, fromColumn: numbe
         return false;
     }
     return false;
+    //3. Path Check: Is the path through water?
 }
 
 const gameMatrix = [
